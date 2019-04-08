@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
+<!DOCTYPE html><!--This defines what type of document we'll be working with, in this case it's a html file-->
+<html lang="en"><!--This tells us what language our code will be in - english--> 
+  <head><!--This tag lets us know what will appear at the top of our page-->
+    <meta charset="utf-8" /><!--This tells us what character setting we'll be using and is the characterencoding which is capable of encoding characters on the web, it's the default in all browsers--> 
+
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+ <!--This section of the code links to our react website to the online bootstrap libraries, as well as the google api library which will help style how our website will look like-->
+ 
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--By including this tag, our browser will render to the width of the device that it's been displayed on, which is useful for different screen sizes-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
@@ -30,17 +35,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>VOICE CONTROLLED LIGHTS - IOT</title>
+    <title>VOICE CONTROLLED LIGHTS - IOT</title> <!--This will be the title of our react html page-->
   </head>
   
     <div id="root"></div>
     
-     <div class="header">
+     <div class="header"><!--This div class creates a header which will appear at the top of our webpage, we've styled it with some css which is housed inside this html document to make it easier to edit-->
   <b><a>VOICE CONTROLLED LIGHTS - INTERNET OF THINGS PROJECT 2019</a></b>
     </div>
     
+    <!--This is some css which will help us style the header where our title is placed, this lets us know that we want our heading centered with a white background-->    
     <style>
-
     body {
   margin: 0;
 }
@@ -72,7 +77,7 @@
        
        <a class="navbar-brand" href="index.html">
     <img src="light.png" alt="logo" style="width:40px;">
-  </a>
+  </a><!--This function links the image of our logo to our home screen so users can navigate back to the actual landing screen of our website-->
         
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -80,6 +85,9 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+      <!--Inside this div tag is where our navigation menu is housed, all the items in the lists are linked to different html pages to ensure easy browsing-->
+
+     
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -103,7 +111,7 @@
       </ul></div></div></nav>
     <p></p>
     
-    <center><img src="light.png" alt="light" width="100" height="100"></center>
+    <center><img src="light.png" alt="light" width="100" height="100"></center><!--This image will be centered on our html page with a width and height off 100 pixels-->
       
       <p></p>
     
@@ -117,7 +125,7 @@
   </div>
 </div>
     
-    <div class="footer">
+    <div class="footer"><!--This class allows us to input information at the bottom of the page, in order to keep it put at the bottom, we've included css, which allows it to stay 'fixed'-->
   <b><p>© VOICE CONTROLLED LIGHTS 2019</p></b>
 </div>
 
@@ -138,7 +146,7 @@
         
       <style>
       body {
-  background-color: #FFFF00;
+  background-color: #FFFF00;/* Set blackground color*/
 </style>
 
   </body>
@@ -194,4 +202,4 @@
 
 
 
-</html>
+</html><!--This closing tag ends our html web document-->
